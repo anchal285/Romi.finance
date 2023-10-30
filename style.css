@@ -1,0 +1,301 @@
+body{
+    background: #191919;
+}
+.nav-link { 
+    float: left;
+    display: block;
+    color: #cecece;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;   
+    margin-top: 5px;
+} 
+.btn1{
+    display:flex;
+   align-items: center;
+   background: transparent;
+    border: 1px solid hsla(0, 0%, 100%, 0.144);
+    border-radius: 5px;
+    margin-bottom: 5px;
+   margin-left: 10px;
+    margin-top: 5px;
+}
+.conn{
+    font-weight: 400;
+    margin-left: .8rem;
+    letter-spacing: 0;
+}
+
+.btn{
+   margin-bottom: 5px;
+    margin-left: 180px;
+    margin-top: 5px;
+    border:1px solid hsla(0, 0%, 100%, 0.256);
+}
+
+.header a:hover {
+    border-bottom: 3px solid rgb(62, 180, 137) ;
+  }
+
+nav{
+    display: flex;
+    border-radius: 5px;
+   
+   background-color: transparent;
+   border-bottom:1px solid hsla(0,0%,100%,.0784313725490196);
+
+}
+h1{
+    margin-top: 10px;
+    padding-top: 10px;
+    color: white;
+    padding-right: 5px;
+    margin-right: 150px;
+    font-family: "Relative",sans-serif;
+    letter-spacing: .5px;
+    
+}
+p{
+font-size: 1.5rem;
+    line-height: 2.5rem;
+    max-width: 44.4rem;
+    color: #cecece;
+    margin-bottom: 0.8rem;
+}
+.main{
+    margin-left: 30px;
+    padding-top: 50px;
+    padding-left: 60px;
+    
+}
+.main h1{
+    font-size: 4.0rem;
+    line-height: 4.0rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0;
+}
+button{
+   
+    background-color: rgb(62, 180, 137);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    border:1px solid hsla(0,0%,100%,.0784313725490196); 
+}
+.cards{
+    color: #cecece;
+    display: flex;
+    margin-bottom: 80px;
+    
+}
+
+.card1{
+   
+    border:1px solid hsla(0,0%,100%,.0784313725490196);
+    margin-top: 30px;
+    padding: 10px 90px;
+    
+    margin-right: 30px;
+    border-radius: 4px;
+    display: flex;
+}
+.card2{
+    
+    border:1px solid hsla(0,0%,100%,.0784313725490196);
+    margin-top: 30px;
+    padding: 10px 120px;
+    margin-right: 30px;
+    border-radius: 4px;
+    display: flex;
+}
+.card3{
+    
+    border:1px solid hsla(0,0%,100%,.0784313725490196);
+    margin-top: 30px;
+    padding: 10px 120px;
+    margin-right: 30px;
+    border-radius: 4px;
+    display: flex;
+    
+}
+.image_icon{
+ margin-right: 25px;
+ 
+}
+
+
+.amount{
+    color: white;
+    font-size: 2.0rem;
+}
+
+.Home-benefits-section{
+    background: #191919;
+    margin-top:30px;
+    border-top: 1px solid #4d4d4e;
+    
+}
+.Home-benefits {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 5.6rem;
+    padding-bottom: 5.6rem;
+}
+.default-container {
+    max-width: 126.4rem;
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+    margin: 0 auto;
+    
+}
+.Home-benefit-options{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3.5rem;
+    
+
+}
+.Home-benefit {
+    padding: 1.46rem 0;
+    margin-right:80px ;
+}
+.Home-benefit-icon {
+    display: flex;
+    align-items: center;
+    padding: 0 0 1.5rem;
+    font-size: 1.5rem;
+}
+.Home-benefit-description {
+    font-size: 1.3rem;
+    line-height: 2.0rem;
+    max-width: 29rem;
+    color: #cecece;
+    letter-spacing: 0;
+}
+.Home-benefit-title {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    margin-left: 1.5rem;
+    color: white;
+}
+.token-card-section{
+     background: #191919;
+        margin-bottom: 80px;
+       
+        height: max-content;
+    }
+
+.card-icon{
+    display: flex;
+    color:white;
+    font-size: 1.5rem;
+}
+.cardinfo{
+    max-width: 28.75rem;
+}
+.card-info-title{
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 3.1rem;
+    letter-spacing: 0;
+    color: whitesmoke;
+}
+.card-options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.5rem;
+}
+.card-option{
+    position: relative;
+    padding: 1.325rem;
+    border-radius: 1.3rem;
+    max-width: 59.2rem;
+    background: #151515;
+    box-shadow: 0 0.5rem 1.3rem rgba(0,0,0,.5215686274509804);
+    border: 1px solid #4d4d4e;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.card-option-title {
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    letter-spacing: 0;
+    color: #fff;
+    margin-top: 1.325rem;
+}
+.cardimg{
+    margin-right: 10px;
+}
+.option-apr{
+    font-size: 1.1rem;
+    line-height: 2.3rem;
+    letter-spacing: 0;
+    color: #cecece; 
+    margin-top: 0.5rem;
+}
+.action{
+    display: flex;
+    
+}
+.buy{
+    margin-right: 10px;
+}
+.readme{
+    background-color: #151515;
+    border: 1px solid rgba(238, 239, 239, 0.919);
+}
+.footer-section{
+    background: #151515;
+}
+.footer-wrapper{
+    text-align: center;
+    padding-top: 3.5rem;
+   
+    border-top: 1px solid #4d4d4e;
+    width: 100%;
+    
+}
+.logo{
+    display: flex;
+    padding-left: 38.5rem;
+}
+.logoname{
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 15px;
+    
+
+}
+.social-link-block
+{
+  display: flex;
+  align-items: center;
+    justify-content: center;
+}
+.app-social-link{
+    margin-top: 30px;
+  margin-right: 50px;
+  color: #fff;
+}
+.footer-links{
+    display: flex;
+   margin-top: 15px;
+    justify-content:center ;
+    margin-right: 10px;
+    padding-bottom: 4rem;
+    padding-right: 2rem;
+}
+.footer-link{
+    color: #e6e6ea;
+   margin-left: 20px;
+   margin-right: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
